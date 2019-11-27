@@ -1,4 +1,4 @@
-# Lesson07_2018-19
+# Lesson08_2019-20
 Intro to SQLite Databases
 
 # Program for offline SQLite DB manipulation
