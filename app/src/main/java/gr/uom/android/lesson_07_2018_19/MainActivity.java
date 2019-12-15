@@ -21,10 +21,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
          db = getBaseContext().openOrCreateDatabase(
-                "teo-db",
+                "teo-db.db",
                 Context.MODE_PRIVATE,
                 null);
 
+         db.execSQL("CREATE TABLE IF NOT EXISTS Person(name text not null, age integer not null )");
 
         Button button = findViewById(R.id.btnAddData);
 
